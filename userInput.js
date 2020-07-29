@@ -39,7 +39,7 @@ inquirer
   
 });
 }
-});
+};
 }
 userQuestions();
 
