@@ -2,7 +2,7 @@ var inquirer = require("inquirer");
 var fs = require('fs');
 const Hello = require('./greeting.js')
 Hello ()
-function userQuestions(){
+function userQuestions(){}
 
 inquirer
   .prompt([
@@ -36,10 +36,7 @@ inquirer
       }else{
           console.log("Success!");
       }
-  
 });
 }
-};
-}
+})
 userQuestions();
-
